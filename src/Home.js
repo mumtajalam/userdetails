@@ -60,7 +60,7 @@ const Home = () => {
                         <div className="col-lg-8 col-md-6 col-sm-12 p-0">
                           <input
                             type="number"
-                            placeholder="Search..."
+                            placeholder="Search user"
                             className="form-control"
                             id="search"
                             name="search"

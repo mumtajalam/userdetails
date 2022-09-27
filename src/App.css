@@ -268,3 +268,45 @@ body {
   border: 1px solid #e6e4e9;
   border-radius: 8px;
 }
+
+#navbar {
+  align-items: center;
+  width: 15rem;
+  height: 100vh;
+  padding: 0px;
+  float: right;
+  background-color: gainsboro;
+  position: fixed;
+}
+
+#navbar ul li {
+  text-align: center;
+  background-color: white;
+  box-shadow: 10px 5px;
+  padding: 0.3rem 0rem;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#navbar ul {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar ul li:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#navbar ul li:active {
+  background-color: yellowgreen;
+}
+#navbar ul {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
