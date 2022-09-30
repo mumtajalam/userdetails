@@ -39,8 +39,6 @@
   border-color: rgb(99, 204, 131);
 }
 
-
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1040px;
